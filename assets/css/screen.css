@@ -25,7 +25,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Inter', sans-serif;
     background: var(--color-bg);
     transition: background 0.3s ease-out;
     transition-delay: 0.25;
@@ -436,7 +436,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    color: #fff;
+    color: rgb(22, 22, 22);
     background: rgba(0,0,0,0.1);
     opacity: 1;
     transition: opacity 0.5s cubic-bezier(.33,0,.2,1);
@@ -553,7 +553,7 @@ body {
 
 .post-content-body {
     font-size: 1.9rem;
-    line-height: 1.65em;
+    line-height: 1.45em;
 }
 @media (max-width: 500px) {
     .post-content-body {
@@ -621,7 +621,7 @@ body {
     border: color(var(--color-base) l(-10%)) 1px solid;
     color: var(--color-bg);
     font-size: 1.4rem;
-    line-height: 1.5em;
+    line-height: 1.45em;
     background: color(var(--color-base) l(-3%));
     border-radius: 5px;
 }

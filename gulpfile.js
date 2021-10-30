@@ -6,7 +6,7 @@ var livereload = require('gulp-livereload');
 var postcss = require('gulp-postcss');
 var zip = require('gulp-zip');
 var uglify = require('gulp-uglify');
-var beeper = require('beeper');
+var beeper = import('beeper');
 
 // postcss plugins
 var autoprefixer = require('autoprefixer');
